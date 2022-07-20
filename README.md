@@ -5,7 +5,7 @@ This Terraform module deploys a Kubernetes cluster on Azure using AKS (Azure Kub
 
 -> **NOTE:** If you have not assigned `client_id` or `client_secret`, A `SystemAssigned` identity will be created.
 
-
+In the variables.tf you will need to change the Prefix variable and the Resourse Group variable.  Pre-create the Resourse Group and enter that information in the variable. These variables are set to "changeme".
 
 ## Authors
 
